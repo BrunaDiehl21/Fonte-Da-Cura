@@ -1,0 +1,194 @@
+html{
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(28, 28, 67);
+    margin: 0 auto;
+    max-width: 1120px;
+    background-size: 120%, 120%;
+}
+
+.cabecalho{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color:  rgb(28, 28, 67);
+}
+
+.cabecalho .logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+}
+
+.cabecalho img{
+    width: 80px;
+    height: 80px;
+}
+
+.cabecalho a{
+    display: flex;
+    text-decoration: none;
+}
+
+.cabecalho h1{
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul{
+    margin: 0 auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+.navbar a:hover{
+    background-color: rgb(67, 102, 177);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.navbar li a:hover{
+    scroll-behavior: smooth;
+}
+
+.home{
+    color: azure;
+    font-size: 25px;
+    display: flex;
+    min-height: calc(100vh - 125px);
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.home .apresentacao{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.home .foto-perfil img{
+    color: black;
+    background-color: aqua;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.terapias{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.terapia{
+    margin-top: 120px;
+    color: rgb(254, 254, 254);
+    width: 350px;
+    height: 550px;
+    background-color: rgb(64, 86, 135);
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.terapia h2{
+    font-size: 32px;
+    padding: 10px;
+    text-align: center;
+}
+
+.terapia p{
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.terapia:hover{
+    background-color: #644596;
+    transition: 0.5s;
+}
+
+.contato{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .linkContato{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color:  rgb(67, 102, 177);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato img{
+    width: 200px;
+    height: 200px;
+}
+
+.contato .linkContato button{
+padding: 17px 40px;
+border-radius: 50px;
+background:linear-gradient(to right, #6a74f7,#DF2974,#fec157) ;
+font-size: 26px;
+transition: 0.3s;
+display: flex;
+align-items: center;
+gap: 8px;
+border: none;
+}
+
+.contato .linkContato a{
+    text-decoration: none;
+}
+
+.contato .linkContato button i{
+    font-size: 35px;
+}
+
+.contato .linkContato button:hover{
+    color: #fff;
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.3s;
+}
