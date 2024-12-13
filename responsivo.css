@@ -79,8 +79,12 @@
         padding: 10px;
     }
 
+    .terapia{
+        height: auto;
+    }
+
     .contato .linkContato{
-        max-width: 350px;
+        max-width: 300px;
         max-height: 350px;
         font-size: 16px;
     }
